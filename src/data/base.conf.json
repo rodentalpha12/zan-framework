@@ -1,0 +1,101 @@
+{
+    "zf_version":"1.0.0",
+    "moment_locale":"fr",
+    "default_lang":"fr",
+    "arg_help":"-h",
+    "arg_silent":"-s",
+    "print_error_mode":"ncurse;consoleSimple;[consoleDetailled]",
+    "log_level":"[debug];[info];[warn];[err];[anomaly];[emergency];[success]",
+    "log_mode":"[systemDatabase];logFile",
+    "system_db_moment_date_format":"YYYY-MM-DD",
+    "system_db_moment_date_time_format":"YYYY-MM-DD HH:mm:ss",
+    "system_db_moment_date_format1":"dddd DD MMMM YYYY - HH:mm:ss",
+    "system_db_sgbd":"mysql",
+    "system_db_encryption_key":"",
+    "system_db_sqlite":"data.db3",
+    "system_db_mysql":{
+        "host":"135.125.1.92",
+        "port":3306,
+        "user":"root",
+        "password":"1234",
+        "database":"test"
+    },
+    "system_db_tables_prefix":"zf100_",
+    "system_db_tables":{
+        "configuration":"configuration",
+        "configuration_mail_server":"configuration_mail_server",
+        "configuration_mysql":"configuration_mysql",
+        "configuration_server":"configuration_server",
+        "debug_todo":"debug_todo",
+        "log_error":"log_error",
+        "log_server":"log_server",
+        "log_sql":"log_sql",
+        "log_system":"log_system",
+        "manager_user":"manager_user",
+        "message":"message",
+        "registry":"registry",
+        "var_hash":"var_hash",
+        "server_route_or_event":"server_route_or_event"
+    },
+    "messages":{
+        "US/ERR/INT/01": "Process PID file exist in memory but not found in disk"
+    },
+    "consts":{
+        "VAR": {
+            "TYPES":{
+                "STRING":"CONSTS.VAR.TYPES.STRING",
+                "CHAR":"CONSTS.VAR.TYPES.CHAR",
+                "BOOLEAN":"CONSTS.VAR.TYPES.BOOLEAN",
+                "INT":"CONSTS.VAR.TYPES.INT",
+                "FLOAT":"CONSTS.VAR.TYPES.FLOAT",
+                "ARRAY":"CONSTS.VAR.TYPES.ARRAY",
+                "NULL":"CONSTS.VAR.TYPES.NULL",
+                "FUNCTION_ANONYMOUS":"CONSTS.VAR.TYPES.FUNCTION_ANONYMOUS",
+                "FUNCTION":"CONSTS.VAR.TYPES.FUNCTION",
+                "CLASS":"CONSTS.VAR.TYPES.CLASS",
+                "HASH":"CONSTS.VAR.TYPES.HASH",
+                "UNDEFINED":"CONSTS.VAR.TYPES.UNDEFINED",
+                "UNKNOW":"CONSTS.VAR.TYPES.UNKNOW"
+            }
+        },
+        "SGBD": {
+            "MYSQL":"CONSTS.SGBD.MYSQL",
+            "SQLITE":"CONSTS.SGBD.SQLITE"
+        },
+        "SQL_QUERY":{
+            "SELECT":"CONSTS.SQL_QUERY.SELECT",
+            "INSERT":"CONSTS.SQL_QUERY.INSERT",
+            "UPDATE":"CONSTS.SQL_QUERY.UPDATE",
+            "DELETE":"CONSTS.SQL_QUERY.DELETE",
+            "TRUNCATE":"CONSTS.SQL_QUERY.TRUNCATE",
+            "SPECIAL":"CONSTS.SQL_QUERY.SPECIAL"
+        },
+        "CONSOLE": {
+            "PRINT": {
+                "INFORMATION":"CONSTS.CONSOLE.PRINT.INFORMATION",
+                "ANOMALY":"CONSTS.CONSOLE.PRINT.ANOMALY",
+                "ERROR":"CONSTS.CONSOLE.PPRINT.ERROR",
+                "SUCCESS":"CONSTS.CONSOLE.PRINT.SUCCESS",
+                "DEBUG":"CONSTS.CONSOLE.PRINT.DEBUG",
+                "WARNING":"CONSTS.CONSOLE.PRINT.WARNING",
+                "EMERGENCY":"CONSTS.CONSOLE.PRINT.EMERGENCY"
+            },
+            "MODE": {
+                "DEFAULT":"CONSTS.CONSOLE.MODE.DEFAULT",
+                "SILENT":"CONSTS.CONSOLE.MODE.SILENT",
+                "PRINT":"CONSTS.CONSOLE.MODE.PRINT"
+                
+            },
+            "TABLES":{
+                "STYLES":{
+                    "NORMAL":"CONSTS.CONSOLE.TABLES.STYLES.NORMAL",
+                    "NO_BORDER":"CONSTS.CONSOLE.TABLES.STYLES.NO_BORDER"
+                },
+                "ORIONTATION": {
+                    "HORIZONTAL": "CONSTS.CONSOLE.TABLES.ORIENTATION.HORIZONTAL",
+                    "VERTICAL": "CONSTS.CONSOLE.TABLES.ORIENTATION.VERTICAL"
+                }
+            }
+        }
+    }
+}

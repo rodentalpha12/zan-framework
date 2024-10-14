@@ -1,0 +1,47 @@
+{
+  "name": "mi-collector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:manager": "ts-node src/process.ts --script=manager --action=start --type=ts --",
+    "dev:install": "ts-node src/install/install.script.ts",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "cli-color": "^2.0.4",
+    "cli-table3": "^0.6.5",
+    "console-clear": "^1.1.1",
+    "console-title": "^1.1.0",
+    "convert-csv-to-json": "^2.49.0",
+    "crypto-js": "^4.2.0",
+    "figlet": "^1.7.0",
+    "getos": "^3.2.1",
+    "ip": "^2.0.1",
+    "moment": "^2.30.1",
+    "mysql2": "^3.9.7",
+    "node-encryption": "^2.0.1",
+    "nodemailer": "^6.9.15",
+    "os-name": "^6.0.0",
+    "portscanner": "^2.2.0",
+    "prompt-sync": "^4.2.0",
+    "sqlite-sync": "^0.3.9",
+    "sync-mysql": "^3.0.1",
+    "tcp-port-used": "^1.0.2",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.25",
+    "@types/cli-color": "^2.0.6",
+    "@types/node": "^20.12.12",
+    "rimraf": "^5.0.7",
+    "typescript": "^5.4.5"
+  }
+}
